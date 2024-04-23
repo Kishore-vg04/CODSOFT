@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+    margin: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    background-image: url('./assets/backgroundimg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10rem;
+    color: whitesmoke;
+}
+header a{
+  text-decoration: none;
+  color: white;
+}
+header a:hover{
+  text-decoration: underline;
+}
+nav li{
+  display: inline-block;
+  padding-left: 20px;
+  margin-left: 40px;
+}
+nav ul{
+  padding-left: 25rem;
+}
+nav{
+  display: flex;
+  padding-top: 20px;
+  padding-left: 7rem;
+}
+.content{
+  padding-top: 10rem;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: whitesmoke;
+  animation: content 10s ease-in-out;
+}
+@keyframes content{
+  0%{
+    color: rgb(240, 45, 240);
+  }
+  10%{
+    color: rgb(147, 21, 236);
+  }
+  20%{
+    color: blue;
+  }
+  30%{
+    color: rgb(26, 245, 26);
+  }
+  40%{
+    color: rgb(248, 248, 27);
+  }
+  50%{
+    color: rgb(247, 168, 22);
+  }
+  100%{
+    color: rgb(254, 35, 35);
+  }
+}
+body h1{
+  font-size: 2rem;
+}
+
+.content_form{
+  padding-top: 2.5rem;
+  text-align: center;
+}
+.content_form input{
+  border-radius: 15px;
+  padding: 15px;
+  padding-right: 400px;
+  font-weight: bold;
+  background-color: rgb(203, 202, 202);
+  border-color: rgb(252, 193, 193);
+}
+
+.body_content_section{
+  margin-left: 5rem;
+  padding-top: 4rem;
+}
+.body_content{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 50px;
+}
+.forest_view{
+  background-color: rgb(250, 247, 247);
+  opacity: 0.9;
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px 0px;
+}
+.forest_content{
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+} 
+.forest_button button{
+  padding-top: 6px;
+  padding: 10px;
+  border: none;
+  border-radius: 14px;
+  opacity: 0;
+  background-color: rgb(246, 37, 37);
+  color: white;
+}
+.forest_view:hover button{
+  opacity: 1;
+  transition: 0.2s;
+}
+.forest_view img{
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+}
+.mountain_view{
+  background-color: rgb(250, 247, 247);
+  opacity: 0.9;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px 0px;
+}
+.mountain_view:hover{
+  opacity: 1;
+  transition: 0.2s;
+}
+.mountain_content{
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+} 
+.mountain_button button{
+  padding-top: 6px;
+  padding: 10px;
+  border: none;
+  border-radius: 14px;
+  opacity: 0;
+  background-color: rgb(246, 37, 37);
+  color: white;
+}
+.mountain_view:hover button{
+  opacity: 1;
+  transition: 0.2s;
+}
+.mountain_view img{
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+}
+.ocean_view{
+  background-color: rgb(250, 247, 247);
+  opacity: 0.9;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px 0px;
+}
+.ocean_view:hover{
+  opacity: 1;
+  transition: 0.2s;
+}
+.ocean_content{
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+} 
+.ocean_button button{
+  padding-top: 6px;
+  padding: 10px;
+  border: none;
+  border-radius: 14px;
+  opacity: 0;
+  background-color: rgb(246, 37, 37);
+  color: white;
+}
+.ocean_view:hover button{
+  opacity: 1;
+  transition: 0.2s;
+}
+.ocean_view img{
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.guide_container{
+  margin-left: 5rem;
+  padding-top: 4rem;
+  row-gap: 50px;
+}
+.guide_container h1{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.guide_grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 50px;
+}
+.guide_card1 img{
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+}
+.guide_card1{
+  background-color: rgb(211, 208, 208);
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px 0px;
+}
+.guide_card1:hover{
+  opacity: 0.5;
+}
+.guide_content1{
+  padding: 20px 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.guide_card2 img{
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+}
+.guide_card2{
+  background-color: rgb(211, 208, 208);
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px 0px;
+}
+.guide_card2 :hover{
+  opacity: 0.5;
+}
+.guide_content2{
+  padding: 20px 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.guide_card3 img{
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+}
+.guide_card3{
+  background-color: rgb(211, 208, 208);
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px 0px;
+}
+.guide_card3:hover{
+  opacity: 0.5;
+}
+.guide_content3{
+  padding: 20px 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.guide_grid p{
+  color: red;
+}
+.guide_card1{
+  position: relative;
+  display: inline-block;
+}
+.button1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.guide_card1:hover .button1{
+  opacity: 1;
+}
+.guide_card2{
+  position: relative;
+  display: inline-block;
+}
+.button2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.guide_card2:hover .button2{
+  opacity: 1;
+}
+.guide_card3{
+  position: relative;
+  display: inline-block;
+}
+.button3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.guide_card3:hover .button3 {
+  opacity: 1;
+}
+.guide_container button{
+  padding: 10px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.booking_details{
+  margin-top: 1rem;
+  padding-top: 6rem;
+  text-align: center;
+  background-image: url('./assets/bgimg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.booking_details form{
+  padding-top: 2rem;
+  text-align: center;
+}
+.booking_details input{
+  padding: 20px;
+  padding-right: 15rem;
+  background-color: rgb(210, 209, 209);
+  border: 2px grey solid;
+  border-radius: 20px;
+}
+.booking_details button{
+  margin-top: 2rem;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+footer{
+  background-color: lightgray;
+}
+.footer_container{
+  display: flex;
+  justify-content: space-around;
+  height: 15rem;
+  padding-top: 2rem;
+  background-color: lightgray;
+}
+.footer_container section{
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.footer_col a{
+  text-decoration: none;
+  color: black;
+}
+.footer_social{
+  gap:10px;
+}
+.footer_bar{
+  text-align: center;
+  padding-bottom: 2rem;
+}
